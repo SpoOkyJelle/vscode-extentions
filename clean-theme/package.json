@@ -1,0 +1,23 @@
+{
+    "name": "clean-theme",
+    "displayName": "clean-theme",
+    "description": "Clear and clean VS-Code theme",
+    "version": "0.0.1",
+	"publisher": "thepumpkingamer6",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.2.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Clean Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Clean Theme-color-theme.json"
+            }
+        ]
+    }
+}
